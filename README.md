@@ -17,6 +17,6 @@ Battery | Li-Ion 2800mAh battery
 Display | 720 x 1280 pixels, 5.0 inches (~294 ppi pixel density)
 Camera  | 8MP, autofocus, flash LED
 
-Copyright 2016 - The LehendROM Project.
+Copyright 2016 - The LegendROM Project.
 
 ![Moto G Play](http://i.imgur.com/WGKA5LSl.jpg "Moto G Play")
