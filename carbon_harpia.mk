@@ -18,13 +18,16 @@ $(call inherit-product, device/motorola/harpia/full_harpia.mk)
 #Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 720
 
-# Inherit some common aosp stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit Carbon GSM telephony parts
+$(call inherit-product, vendor/carbon/config/gsm.mk)
+
+# Inherit Carbon product configuration
+$(call inherit-product, vendor/carbon/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := harpia
 PRODUCT_MODEL := Moto G Play
-PRODUCT_NAME := lineage_harpia
+PRODUCT_NAME := carbon_harpia
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := harpia
